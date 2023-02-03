@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".weddingHomeActivity"
+    android:orientation="vertical"
+    android:padding="1dp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="104dp"
+    >
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e3e8f0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:clipToPadding="false"
+            android:padding="1dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#e3e8f0">
+
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_circle"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_wed" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_margin="5dp"
+                        android:background="#D3D3D3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wedding"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#e3e8f0">
+
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_circle"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_wed" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_margin="5dp"
+                        android:background="#D3D3D3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wedding"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#e3e8f0">
+
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_circle"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_wed" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_margin="5dp"
+                        android:background="#D3D3D3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wedding"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#e3e8f0">
+
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_circle"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_wed" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_margin="5dp"
+                        android:background="#D3D3D3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wedding"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#e3e8f0">
+
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_circle"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_wed" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_margin="5dp"
+                        android:background="#D3D3D3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wedding"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#e3e8f0">
+
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_circle"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_wed" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_margin="5dp"
+                        android:background="#D3D3D3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wedding"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#e3e8f0">
+
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_circle"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_wed" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_margin="5dp"
+                        android:background="#D3D3D3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wedding"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e3e8f0">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:clipToPadding="false"
+            android:padding="1dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="10dp">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</ScrollView>
+
+<!--<TextView-->
+<!--android:id="@+id/plnning_tool"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="Wedding Planning tools"-->
+<!--android:textStyle="bold"/>-->
+
+<!--    </TextView>-->
