@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/vendor"
+        android:icon="@drawable/shope"
+        android:title="Vendors" />
+    <item
+        android:id="@+id/e_invites"
+        android:icon="@drawable/e_invites"
+        android:title="E-Invites" />
+    <item
+        android:id="@+id/ideas"
+        android:icon="@drawable/ideas"
+        android:title="Ideas" />
+    <item
+        android:id="@+id/plane"
+        android:icon="@drawable/planning"
+        android:title="Planning" />
+
+
+</menu>

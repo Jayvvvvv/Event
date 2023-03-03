@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    tools:context=".ListOfEvent">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        android:id="@+id/bottom_navigation">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/math_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#000000"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:text="Venues"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:color="#000000"
+                        android:text="Banquet Halls, Lawns / ..."
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image_venues"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="32dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/venues" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math1_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="Photographers"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:text="Photographers, Cinem..."
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/photos_images"
+                    android:layout_width="191dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/photographers" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math2_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/make"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:text="Makeup"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/mekeup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:text="Bridal Makeup"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/make_up"
+                    android:layout_width="192dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="108dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/makeup" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math3_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bridal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:textStyle="bold"
+                        android:text="Bridal Wear"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/bridalwear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:text="Bridal Lehengas, Kanje..."
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/bridal_wear"
+                    android:layout_width="192dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="35dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bridal_wear" />
+
+            </LinearLayout>
+
+            <!--Groom Wears are here-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math4_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/groom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:color="#020000"
+                        android:textStyle="bold"
+                        android:text="Groom Wear"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/groomlwear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:text="Sherwani, Wedding Sui..."
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/groom_wearr"
+                    android:layout_width="195dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/groom_wear" />
+
+            </LinearLayout>
+
+            <!-- Mehndi Items are here-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math5_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/mehendi_artist"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:textStyle="bold"
+                        android:text="Mehendi"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/mahndi_a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:text="Sherwani, Wedding Sui..."
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/mehndi"
+                    android:layout_width="195dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mehendi_artists" />
+
+            </LinearLayout>
+
+<!--  planning and Decoration section  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math5_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/planning"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:textStyle="bold"
+                        android:text="Planning &#38; Decor"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/planning_decorator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:color="#000000"
+                        android:text="Wedding Planners, Dec..."
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/planning_d"
+                    android:layout_width="195dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="34dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/planning_decor" />
+
+            </LinearLayout>
+
+            <!-- Panditji Items are here-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math6_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/panditji"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:textStyle="bold"
+                        android:text="Pandits"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/pandit_ji"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:text="Wedding Pandits"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/pandit"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="90dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/panditji" />
+
+            </LinearLayout>
+
+            <!--Food related things are here-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math7_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_food"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:textStyle="bold"
+                        android:text="Food"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/food_"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:text="Catering Services, Cak..."
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/food"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/food" />
+
+            </LinearLayout>
+
+            <!--Here is the invitation and gifts for wedding-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math8_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/invites"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:textStyle="bold"
+                        android:text="Invites &#38; Gifts"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/invitegift"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:text="Invitations, Favors, Trou..."
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/invite_gift"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="31dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/invites_gifts" />
+
+            </LinearLayout>
+
+            <!--Here is the Music and Dance for wedding-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math9_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/music"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:textStyle="bold"
+                        android:text="Music &#38; Dance"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/musicdance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:color="#000000"
+                        android:text="DJs, Sangeet Choreogr..."
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/music_dance"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="36dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/music_dance" />
+
+            </LinearLayout>
+
+            <!--Here is the invitation and gifts for wedding-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:background="@drawable/math10_bg"
+                android:orientation="horizontal"
+                android:layout_marginBottom="170dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/jewellaries"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:textStyle="bold"
+                        android:text="Jewellery &#38; "
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:color="#000000"
+                        android:textStyle="bold"
+                        android:text="Accessories"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/jewellariesaccessories"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:color="#000000"
+                        android:text="Jewellery, Flower Jewel..."
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/jewellaries_accessories"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="32dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/jewellaries_accessories" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="top"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Vendor"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Categories"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/indore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="126dp"
+            android:text="Indore"
+            android:textColor="#FF1493"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

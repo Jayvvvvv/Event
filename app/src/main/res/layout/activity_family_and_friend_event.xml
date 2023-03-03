@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    tools:context=".ListOfEvent">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/math_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/vanue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Venues"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/vanues"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="Banquet Halls, Lawns / ..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/venues"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/venues" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math1_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/photo"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Photographers &#38; Vediographers"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/photographer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="Photographers, Cinem..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/birthday_photographer"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math2_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Party_d"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Party Decorators"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/decorator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="Party Decorators, Supplies..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/make_up"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/decorator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math3_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/entertainers"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Entertainers"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/Enter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="magicians, clowns, face..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/bridal_wear"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/entertainer" />
+
+            </LinearLayout>
+
+            <!--Groom Wears are here-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math4_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rental"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Rentals"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/rentals_"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="tables, chairs, linens..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/groom_wearr"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rentals" />
+
+            </LinearLayout>
+
+            <!-- Mehndi Items are here-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math5_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/cakes"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Custom cakes &#38; desserts"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/custom_cake"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="Custom cakes, desserts..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/mehndi"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/custom_cake" />
+
+            </LinearLayout>
+
+            <!-- Mehndi Items are here-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math6_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ballons"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Balloons"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/ballon_artist"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="Balloons, balloon artists"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/pandit"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balloons" />
+
+            </LinearLayout>
+
+            <!--Food related things are here-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math7_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_foods"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Food"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/foods_"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="Catering Services, Cak..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/food"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/food" />
+
+            </LinearLayout>
+
+            <!--Here is the invitation and gifts for wedding-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math8_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/invite"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Invites &#38; Gifts"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/invitesgift"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="Invitations, Favors, Trou..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/invites_gift"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gift" />
+
+            </LinearLayout>
+
+            <!--Here is the Music and Dance for wedding-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/math9_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/musics"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Music &#38; Dance"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/musicsdance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="DJs, Sangeet Choreogr..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/music_dance"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/music_dance" />
+
+            </LinearLayout>
+
+            <!--Here is the invitation and gifts for wedding-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:background="@drawable/math10_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/light"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Lighting"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/light_sound"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="Lighting, sound services..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/jewellaries_accessories"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lighting" />
+
+            </LinearLayout>
+
+            <!--Here is the invitation and gifts for wedding-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:background="@drawable/math11_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/honeymoon"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Invites &#38; Gifts"
+                        android:textSize="21dp" />
+
+                    <TextView
+                        android:id="@+id/honeymooncat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="Invitations, Favors, Trou..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/honeymoon_cat"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/honeymoon_cat" />
+
+            </LinearLayout>
+
+            <!--Here is the invitation and gifts for wedding-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:background="@drawable/math11_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/honeymon"
+                        android:layout_width="231dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:color="#020000"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Invites &#38; Gifts"
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/honeymoonat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:color="#020000"
+                        android:text="Invitations, Favors, Trou..."
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/honeymoo_cat"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/input_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/honeymoon_cat" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="top"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:color="#020000"
+            android:fontFamily="sans-serif-black"
+            android:text="Vendor"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:color="#020000"
+            android:fontFamily="sans-serif-black"
+            android:text="Categories"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/indore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="126dp"
+            android:text="Indore"
+            android:textColor="#FF1493"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

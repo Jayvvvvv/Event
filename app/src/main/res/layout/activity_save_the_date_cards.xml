@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardsOfWedding">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wedmenu">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif-black"
+                android:text="Save The Date Cards"
+                android:textSize="20dp" />
+
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/wedmenu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/v_card1"
+                        app:shapeAppearanceOverlay="@style/roumdImageView" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="40dp"
+                        android:text="You Are Mine"
+                        android:textColor="#020000"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/v_card2"
+                        app:shapeAppearanceOverlay="@style/roumdImageView" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="40dp"
+                        android:text="Modieval Period"
+                        android:textColor="#020000"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/v_card3"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Festive Love"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/v_card4"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Traditional Essence"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/v_card5"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Tulip Garden"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card8"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Bohemain Love"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card9"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Mountain Lovers"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card10"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Deepest Divine"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card11"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Vivacious Pastel"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card12"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Blooming Summer"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/card13"
+                        app:shapeAppearanceOverlay="@style/roumdImageView" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Sikia"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card14"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Old Heritage"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card15"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Love Characters"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card17"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Bohemain Love"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card18"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Pop Lovers"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card19"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Loving Paradise"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card20"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Tulip Garden"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card21"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Bohemain Love"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card22"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Tulip Garden"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card23"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Bohemain Love"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card24"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Tulip Garden"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card25"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Bohemain Love"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card26"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Tulip Garden"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card27"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Bohemain Love"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="17dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card28"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Tulip Garden"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+
+                        android:layout_width="155dp"
+                        android:layout_height="210dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roumdImageView"
+                        android:src="@drawable/card29"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="#020000"
+                        android:textStyle="bold"
+                        android:text="Bohemain Love"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
