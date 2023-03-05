@@ -18,7 +18,7 @@ public class IdeaScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_idea_screen);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
-        bottomNavigationView.setSelectedItemId(R.id.ideas);
+//        bottomNavigationView.setSelectedItemId(R.id.ideas);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -38,14 +38,14 @@ public class IdeaScreen extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), E_InvitationScreen.class));
                         overridePendingTransition(0,0);
                         return true;
-
-                    case R.id.ideas:
-                        return true;
-
-                    case R.id.plane:
-                        startActivity(new Intent(getApplicationContext(), PlanningScreen.class));
-                        overridePendingTransition(0,0);
-                        return true;
+//
+//                    case R.id.ideas:
+//                        return true;
+//
+//                    case R.id.plane:
+//                        startActivity(new Intent(getApplicationContext(), PlanningScreen.class));
+//                        overridePendingTransition(0,0);
+//                        return true;
                 }
                 return false;
             }

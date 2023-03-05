@@ -70,15 +70,15 @@ public class E_InvitationScreen extends AppCompatActivity {
                         return true;
 
 
-                    case R.id.ideas:
-                        startActivity(new Intent(getApplicationContext(), IdeaScreen.class));
-                        overridePendingTransition(0,0);
-                        return true;
-
-                    case R.id.plane:
-                        startActivity(new Intent(getApplicationContext(), PlanningScreen.class));
-                        overridePendingTransition(0,0);
-                        return true;
+//                    case R.id.ideas:
+//                        startActivity(new Intent(getApplicationContext(), IdeaScreen.class));
+//                        overridePendingTransition(0,0);
+//                        return true;
+//
+//                    case R.id.plane:
+//                        startActivity(new Intent(getApplicationContext(), PlanningScreen.class));
+//                        overridePendingTransition(0,0);
+//                        return true;
 
                 }
                 return false;

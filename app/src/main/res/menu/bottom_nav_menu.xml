@@ -12,14 +12,14 @@
         android:id="@+id/e_invites"
         android:icon="@drawable/e_invites"
         android:title="E-Invites" />
-    <item
-        android:id="@+id/ideas"
-        android:icon="@drawable/ideas"
-        android:title="Ideas" />
-    <item
-        android:id="@+id/plane"
-        android:icon="@drawable/planning"
-        android:title="Planning" />
+<!--    <item-->
+<!--        android:id="@+id/ideas"-->
+<!--        android:icon="@drawable/ideas"-->
+<!--        android:title="Ideas" />-->
+<!--    <item-->
+<!--        android:id="@+id/plane"-->
+<!--        android:icon="@drawable/planning"-->
+<!--        android:title="Planning" />-->
 
 
 </menu>

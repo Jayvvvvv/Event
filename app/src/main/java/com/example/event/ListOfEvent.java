@@ -3,21 +3,14 @@ package com.example.event;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
-import android.os.Build;
 import android.os.Bundle;
-import android.text.Html;
-import android.text.Spanned;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import java.util.Objects;
 
 public class ListOfEvent extends AppCompatActivity implements View.OnClickListener{
 
@@ -58,15 +51,15 @@ public class ListOfEvent extends AppCompatActivity implements View.OnClickListen
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.ideas:
-                        startActivity(new Intent(getApplicationContext(), IdeaScreen.class));
-                        overridePendingTransition(0,0);
-                        return true;
-
-                    case R.id.plane:
-                        startActivity(new Intent(getApplicationContext(), PlanningScreen.class));
-                        overridePendingTransition(0,0);
-                        return true;
+//                    case R.id.ideas:
+//                        startActivity(new Intent(getApplicationContext(), IdeaScreen.class));
+//                        overridePendingTransition(0,0);
+//                        return true;
+//
+//                    case R.id.plane:
+//                        startActivity(new Intent(getApplicationContext(), PlanningScreen.class));
+//                        overridePendingTransition(0,0);
+//                        return true;
                 }
                 return false;
             }
@@ -87,11 +80,11 @@ public class ListOfEvent extends AppCompatActivity implements View.OnClickListen
                 startActivity(i);
                 break;
             case R.id.photos_images:
-                i = new Intent(this, VenueScreen.class);
+                i = new Intent(this, PhotographyScreen.class);
                 startActivity(i);
                 break;
             case R.id.make_up:
-                i = new Intent(this, VenueScreen.class);
+                i = new Intent(this, PlanningSceern.class);
                 startActivity(i);
                 break;
             case R.id.bridal_wear:

@@ -17,9 +17,21 @@
         android:theme="@style/Theme.Event"
         tools:targetApi="31">
         <activity
-            android:name=".SendMassgeForm"
+            android:name=".PlanningSceern"
+            android:exported="false" />
+        <activity
+            android:name=".SendMassagePhotographer"
+            android:exported="false" />
+        <activity
+            android:name=".PhotographyScreen"
             android:exported="false"
-            android:theme="@style/Theme.Event"/>
+            android:theme="@style/Theme.Event" />
+        <activity
+            android:name=".SriRamKrishnaBag"
+            android:exported="false" />
+        <activity
+            android:name=".SendMassage"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 

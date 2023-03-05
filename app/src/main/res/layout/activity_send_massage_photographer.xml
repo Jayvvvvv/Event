@@ -27,7 +27,7 @@
                 android:text="Hi, Dear Customers"/>
 
             <EditText
-                android:id="@+id/sendName"
+                android:id="@+id/sendNameP"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
@@ -48,7 +48,7 @@
 
 
             <EditText
-                android:id="@+id/sendPhone"
+                android:id="@+id/sendPhoneP"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -68,7 +68,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress" />
 
             <EditText
-                android:id="@+id/sendEmailAddress"
+                android:id="@+id/sendEmailAddressP"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -89,7 +89,7 @@
 
 
             <EditText
-                android:id="@+id/sendFunctionDate"
+                android:id="@+id/sendFunctionDateP"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -109,104 +109,15 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress" />
 
             <EditText
-                android:id="@+id/sendNumOfGuests"
+                android:id="@+id/sendDescriptionP"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:ems="10"
-                android:hint="No of guests* (min 50)"
-                android:inputType="number"
-                android:paddingLeft="20dp"
-                android:paddingTop="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:textColorHint="#000"
+                android:layout_height="200dp"
                 android:background="@drawable/black_circle"
-                android:drawablePadding="10dp"
-                app:layout_constraintEnd_toEndOf="@+id/editTextEmailAddress"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/editTextEmailAddress"
-                app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress" />
-
-            <EditText
-                android:id="@+id/sendNumOfRooms"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:ems="10"
-                android:hint="No of rooms (optional)"
-                android:inputType="number"
-                android:paddingLeft="20dp"
-                android:paddingTop="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
+                android:text="Detial about my wedding"
                 android:textColorHint="#000"
-                android:background="@drawable/black_circle"
-                android:drawablePadding="10dp"
-                app:layout_constraintEnd_toEndOf="@+id/editTextEmailAddress"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/editTextEmailAddress"
-                app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress" />
+                android:layout_marginTop="20dp"
+                android:paddingLeft="20dp"/>
 
-            <TextView
-                android:id="@+id/txtFunctionType"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:textSize="16dp"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:text="Function Type"/>
-
-          <LinearLayout
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:orientation="horizontal">
-
-              <RadioButton
-                  android:id="@+id/radio_pre_wed"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:text="Pre-Wedding"
-                  android:layout_marginRight="15dp"/>
-
-              <RadioButton
-                  android:id="@+id/radio_wed"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:text="Wedding"/>
-
-          </LinearLayout>
-
-            <TextView
-                android:id="@+id/txtFunctionTime"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:textSize="16dp"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:text="Function Time"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/radio_evening"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Evening"
-                    android:layout_marginRight="15dp"/>
-
-                <RadioButton
-                    android:id="@+id/radio_day"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Day"/>
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -231,7 +142,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/sendForm"
+                android:id="@+id/sendPhotographer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/scrollForm"

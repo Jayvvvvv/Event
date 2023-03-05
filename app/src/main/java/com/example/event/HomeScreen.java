@@ -59,15 +59,15 @@ public class HomeScreen extends AppCompatActivity implements View.OnClickListene
                        overridePendingTransition(0,0);
                        return true;
 
-                   case R.id.ideas:
-                       startActivity(new Intent(getApplicationContext(), IdeaScreen.class));
-                       overridePendingTransition(0,0);
-                       return true;
-
-                   case R.id.plane:
-                       startActivity(new Intent(getApplicationContext(), PlanningScreen.class));
-                       overridePendingTransition(0,0);
-                       return true;
+//                   case R.id.ideas:
+//                       startActivity(new Intent(getApplicationContext(), IdeaScreen.class));
+//                       overridePendingTransition(0,0);
+//                       return true;
+//
+//                   case R.id.plane:
+//                       startActivity(new Intent(getApplicationContext(), PlanningScreen.class));
+//                       overridePendingTransition(0,0);
+//                       return true;
                }
                return false;
            }
@@ -86,11 +86,11 @@ public class HomeScreen extends AppCompatActivity implements View.OnClickListene
                 startActivity(i);
                 break;
             case R.id.photography_views:
-                i = new Intent(this, VenueScreen.class);
+                i = new Intent(this, PhotographyScreen.class);
                 startActivity(i);
                 break;
             case R.id.planning_views:
-                i = new Intent(this, VenueScreen.class);
+                i = new Intent(this, PlanningSceern.class);
                 startActivity(i);
                 break;
         }
